@@ -1,0 +1,174 @@
+@media screen and (max-width: 1200px) {
+  /* header */
+  #container > #header > .bottom {
+    gap: 20px;
+  }
+  #container > #header > .main > .right > div {
+    width: 50%;
+    height: 50%;
+  }
+  #container .right > div > .all-cart {
+  }
+  #container .right > div > span {
+    font-size: 12px;
+    padding-right: 20px;
+  }
+  #container > #header > .main > .center > .top > input {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  /* header */
+  #container > #header > .main > .right > div {
+    gap: 5px;
+  }
+  .main div > span {
+    font-size: 12px;
+  }
+
+  .all-cart:nth-child(1),
+  .all-cart:nth-child(2) {
+    margin-top: 2px;
+  }
+  #container > #header > .main > .center > .bottom {
+    display: none;
+  }
+  #container > #header > .bottom {
+    width: 100%;
+  }
+  #container > #header > .main > .logo > img {
+    width: 150px;
+    height: 50px;
+  }
+  #container > #header > .bottom > .box {
+    gap: 20px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  #container > #header > .bottom > .box > div:hover {
+    font-size: 14px;
+  }
+  #container > #header > .bottom > .side {
+    width: 22%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* header */
+  #container > #header > .holder > .ad {
+    font-size: 10px;
+    gap: 0;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+  }
+  #container > #header > .holder > .ad > .ad-items {
+    padding: 0 0 0 2px;
+    gap: 0px;
+  }
+  #container .right > div > .all-cart {
+    width: 70%;
+    height: 70%;
+  }
+  #container .all-cart > div > span {
+    display: none;
+  }
+  #container > #header > .main {
+    height: 60px;
+    position: relative;
+  }
+  #container > #header > .main > .logo > img {
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    left: 5%;
+  }
+  #container > #header > .main > .center > .top > button,
+  #container > #header > .main > .center > .top > input {
+    height: 25px;
+    font-size: 10px;
+  }
+  #container > #header > .main > .logo {
+    background-size: 100%;
+  }
+  #container > #header > .bottom > .box {
+    display: none;
+  }
+  #container > #header > .bottom > .side:hover {
+    width: 100%;
+    background-color: #c7c7c7;
+  }
+
+  #container > #header > .bottom > .side:hover > ul {
+    opacity: 0.8;
+    visibility: visible;
+  }
+  #container > #header > .bottom > .side > ul {
+    opacity: 0;
+    visibility: hidden;
+  }
+  #container > #header > .bottom > .side {
+    width: 100%;
+    transition: 0.3s;
+    position: relative;
+    top: 20px;
+  }
+
+  #container > #header > .bottom > .side:hover > .box {
+    visibility: visible;
+    opacity: 1;
+  }
+  #container > #header > .bottom > .side > .box {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  #container > #header > .bottom > .side:hover {
+    z-index: 9999;
+  }
+
+  /* slider */
+  .main {
+    width: 100%;
+  }
+  .main > .advertise {
+    display: none;
+  }
+  .main > #rigester {
+    display: block;
+  }
+
+  #slider {
+    width: 88%;
+  }
+
+  /* categury */
+  .cat {
+    flex-flow: row wrap;
+  }
+  .cat > div {
+    flex-basis: 50%;
+  }
+  .cat > div > img {
+    height: 50%;
+  }
+
+  /* all pack */
+
+  .all-pack > .main {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+  }
+
+  .all-pack > .main > .sub {
+    /* width: 100%; */
+    height: 100%;
+    flex-grow: 1;
+    flex-basis: 15%;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 2px 2px 14px rgb(119, 75, 213);
+    /* border: 1px solid #000; */
+  }
+}

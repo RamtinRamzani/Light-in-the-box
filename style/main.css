@@ -1,0 +1,107 @@
+.main {
+  width: 90%;
+  margin: 0 auto;
+  /* border: 1px solid #fff; */
+  height: 385px;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 6px;
+}
+.main > #rigester {
+  width: 6%;
+  background: linear-gradient(135deg, #ffaa82 0, #db2424 100%);
+
+  display: none;
+  position: relative;
+}
+.main > #rigester > div:nth-child(1) {
+  background-color: rgba(255, 166, 0, 0.637);
+}
+.main > #rigester > div:nth-child(1) {
+  width: 80%;
+  height: 20%;
+  margin: 140px auto;
+  background: rgba(255, 166, 0, 0.224) url("../images/click/left.png") no-repeat
+    20%;
+  background-size: 60%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.main > #rigester:hover > div:nth-child(2) {
+  visibility: visible;
+  opacity: 0.9;
+}
+.main > #rigester > div:nth-child(2) {
+  width: 700%;
+  height: 50%;
+  background: linear-gradient(135deg, #ffaa82 0, #db2424 100%);
+  position: absolute;
+  top: 22%;
+  right: 100%;
+  z-index: 998;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.2s;
+  transform: scale(1.3) translate(-32px, 20px);
+}
+.main > #rigester > div:nth-child(2) > .top,
+.main > #rigester > div:nth-child(2) > .bottom {
+  height: 50%;
+  text-align: center;
+  padding-top: 20px;
+}
+.main > #rigester > div:nth-child(2) > .top {
+  padding-top: 50px;
+}
+
+.main > .advertise {
+  width: 22%;
+  height: 100%;
+  /* border: 1px solid #fff; */
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+  font-size: 12px;
+}
+.main > .advertise > .top {
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid #fff; */
+  color: #222;
+  background: linear-gradient(135deg, #ffaa82 0, #db2424 100%);
+  display: flex;
+  flex-flow: column;
+  gap: 2px;
+}
+.main > .advertise > .top > div {
+  height: 50%;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
+#content .welcome {
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+#content .register,
+#content .sign {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  font-size: 14px;
+  height: 20px;
+  cursor: pointer;
+}
+#content .register {
+  margin-bottom: 10px;
+}
+#content > .main > .advertise > .bottom {
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid #fff; */
+  background: url("../images/slider/7036c313cad843c6ab294861eccb6a5c1.gif")
+    no-repeat 100%;
+  background-size: 100%;
+  border-radius: 4px;
+}

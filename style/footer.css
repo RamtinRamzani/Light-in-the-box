@@ -1,0 +1,99 @@
+#footer {
+  height: 820px;
+  border: 1px solid #333;
+  background-color: #b0b0b0;
+}
+#footer > .top {
+  width: 80%;
+  height: 40%;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+#footer > .top > .first {
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid #000; */
+  direction: ltr;
+}
+#footer > .top > .first > .logo {
+  height: 40%;
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 20px;
+}
+#footer > .top > .first > .logo > h2 > span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 145px;
+  height: 26px;
+  background: url("../images/logo & imoji/download.png") no-repeat;
+  background-size: cover;
+}
+#footer > .top > .first > .logo > h2,
+#footer > .top > .first > .logo > h3 {
+  display: inline-block;
+}
+#footer > .top > .first > .chert {
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid #000; */
+  display: flex;
+  gap: 5px;
+}
+
+#footer > .top > .first > .chert > div {
+  /* border: 1px solid #000; */
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+#footer > .top > .first > .chert > div > h3 {
+  margin-top: -5px;
+}
+#footer > .top > .second {
+  width: 100%;
+  height: 40%;
+  border: 1px solid #000;
+  direction: ltr;
+  display: flex;
+}
+#footer > .top > .second > .email {
+  width: 30%;
+  height: 100%;
+  border: 1px solid #000;
+  padding-top: 40px;
+}
+#footer > .top > .second > .email > div > p {
+  color: #444;
+  margin-bottom: 10px;
+}
+#footer > .top > .second > .email > div > input {
+  width: 60%;
+  height: 30px;
+  border-radius: 20px 0 20px 20px;
+  padding-left: 10px;
+}
+#footer > .top > .second > .email > div > button {
+  width: 30%;
+  height: 30px;
+  border-radius: 20px 20px 20px 0;
+  background-color: rgba(0, 0, 255, 0.325);
+}
+#footer > .top > .second > .social {
+  width: 40%;
+  height: 100%;
+  border: 1px solid #000;
+  padding-top: 40px;
+}
+#footer > .top > .second > .app {
+  width: 30%;
+  height: 100%;
+  border: 1px solid #000;
+  padding-top: 40px;
+}
+#footer > .bottom {
+  width: 80%;
+  height: 60%;
+  margin: 0 auto;
+}

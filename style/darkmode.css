@@ -1,0 +1,35 @@
+#click {
+  background-color: #fff;
+  height: 100vw;
+}
+.dady {
+  width: 100px;
+  height: 30px;
+  background-color: orange;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+#dark,
+#light {
+  width: 40px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  margin: 100px auto;
+  cursor: pointer;
+}
+#dark {
+  background-color: #000;
+  color: #fff;
+}
+#light {
+  background-color: #fff;
+  color: #000;
+}

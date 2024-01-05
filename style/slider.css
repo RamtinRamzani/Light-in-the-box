@@ -1,0 +1,83 @@
+#slider {
+  width: 60%;
+  height: 100%;
+  border: 1px solid #fff;
+  position: relative;
+  overflow: hidden;
+  direction: ltr;
+}
+#slider > #gal {
+  border: 1px solid red;
+  width: 500%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+  transition: 0.5s;
+}
+#slider > #gal > .items {
+  width: 20%;
+  height: 100%;
+}
+#slider > #gal > .items > img {
+  width: 100%;
+  height: 100%;
+}
+#slider > #right:hover,
+#slider > #left:hover {
+  background-color: rgba(255, 166, 0, 0.637);
+}
+#slider > #right,
+#slider > #left {
+  transition: 0.2s;
+  width: 50px;
+  height: 70px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+#slider > #right {
+  background: rgba(255, 166, 0, 0.224) url("../images/click/right.png")
+    no-repeat 50%;
+  background-size: 40%;
+  position: absolute;
+  top: 160px;
+  right: 0;
+}
+#slider > #left {
+  background: rgba(255, 166, 0, 0.224) url("../images/click/left.png") no-repeat
+    50%;
+  background-size: 40%;
+  position: absolute;
+  top: 160px;
+  left: 0;
+}
+
+#slider > #but {
+  /* background: red; */
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+
+  position: relative;
+  top: -25px;
+}
+#slider > #but > li.sel {
+  background: #fff;
+  width: 30px;
+}
+#slider > #but > li:hover {
+  background: #fff;
+}
+
+#slider > #but > li {
+  transition: width 0.5s;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  background: #333;
+  border-radius: 50px;
+}

@@ -1,0 +1,166 @@
+.title {
+  width: 90%;
+  height: 40px;
+  margin: 10px auto;
+  line-height: 40px;
+  direction: ltr;
+}
+.title > span {
+  font-size: 20px;
+}
+.title > span::before {
+  content: "";
+  width: 0;
+  height: 18px;
+  display: inline-block;
+  border-left: 4px #e33124 solid;
+  margin-right: 5px;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+.all-pack {
+  width: 90%;
+  margin: 0 auto;
+  height: 2220px;
+  /* border: 1px solid #000; */
+}
+.all-pack > .main {
+  width: 100%;
+  height: 310px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  /* border: 1px solid #000; */
+  margin-bottom: 8px;
+}
+.all-pack > .main > .sub {
+  width: 100%;
+  height: 100%;
+  flex-basis: 15%;
+  background-color: rgb(230, 230, 230);
+  box-shadow: 2px 2px 14px rgb(119, 75, 213);
+  /* border: 1px solid #000; */
+}
+.all-pack .sub > .top {
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid #000; */
+  cursor: pointer;
+}
+
+.all-pack .sub > .top > img:hover {
+  transform: rotateX(-10deg) rotateY(20deg) scale(1.1);
+}
+.all-pack .sub > .top > img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.all-pack .sub > .bottom {
+  width: 100%;
+  height: 40%;
+  /* border: 1px solid #000; */
+}
+
+.all-pack .sub > .bottom > .title {
+  width: 100%;
+  height: 40%;
+  /* border: 1px solid #000; */
+  line-height: 17px;
+  margin: 5px 0;
+  padding-left: 5px;
+  font-size: 14px;
+}
+.all-pack .sub > .bottom > .title > p > .pert {
+  width: 130px;
+  height: 15px;
+}
+.all-pack .sub > .bottom > .title > .text:hover {
+  color: blue;
+  font-weight: 700;
+}
+.all-pack .sub > .bottom > .title > .text {
+  width: 90%;
+  white-space: initial;
+  color: #333;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  cursor: pointer;
+  word-spacing: 3px;
+}
+
+.all-pack .sub > .bottom > .price {
+  max-width: 100vw;
+  height: 30%;
+  direction: ltr;
+  padding-left: 7px;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-flow: row wrap;
+}
+.all-pack .price > .offer {
+  display: inline;
+  padding: 0 7px 0 0;
+  line-height: 19px;
+  font-weight: 800;
+  font-size: 14px;
+}
+.all-pack .price > .no-offer {
+  color: #666;
+  height: 16px;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: line-through;
+  padding-top: 3px;
+}
+.all-pack .sub > .bottom > .starbox {
+  width: 100%;
+  height: 20%;
+  /* border: 1px solid #000; */
+  direction: ltr;
+  padding-left: 5px;
+}
+.all-pack .sub > .bottom > .starbox > .star:hover {
+  height: 120%;
+  position: relative;
+  top: -7px;
+}
+.all-pack > .main > .sub > .bottom > .starbox > .star {
+  float: left;
+  width: 40%;
+  height: 70%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+.all-pack .star > img {
+  width: 10px;
+  height: 80%;
+}
+.all-pack .starbox > .score {
+  margin-left: 15px;
+  font-size: 12px;
+  display: inline-block;
+}
+.all-pack .starbox > .heart {
+  width: 15%;
+  height: 100%;
+  float: right;
+}
+.all-pack .starbox > .heart > img:hover {
+  color: orange;
+  background-color: orange;
+  opacity: 1;
+}
+.all-pack .starbox > .heart > img {
+  width: 100%;
+  height: 80%;
+  opacity: 0.4;
+  cursor: pointer;
+}
